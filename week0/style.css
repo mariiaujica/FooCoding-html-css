@@ -1,0 +1,122 @@
+
+        #title{
+            font-family:'Franklin Gothic Medium', Arial, sans-serif;
+            font-size:150px;
+            color:#ff8c00da;
+            margin-left:15px;
+        }
+        .portrait-with-lamb{
+            border-radius:50%;
+            width:53%;
+            float:right;
+            margin-top:-600px;
+            max-width:100%;
+            height:auto;
+        }
+        #image{
+         display:block;
+         margin:auto;
+         max-width:100%;
+         height:auto;
+        }
+        #img-caption{
+            text-align:center;
+            padding:auto;
+        }
+        .recognitionquote{
+            font-family: Tahoma, sans-serif;
+            font-size:17px;
+            background-color:#ff8c00da;
+            padding:2%;
+            text-align: left;
+            margin-top:-97px;
+        }
+        #imglam-caption{
+            padding-left: 20px;
+            margin-top:-8px;
+        }
+        #photowithulay{
+            width:60vw;
+            display:block;
+            margin:auto;
+        
+            }
+        h2{
+            font-family:serif;
+            font-size:40px;
+            font-weight:400;
+            color:black;
+            padding:auto;
+            text-align: center;
+            opacity: 90%;
+        }
+        .regular-text{
+            font-family:serif;
+            font-size:18px;
+            padding-top:20px;
+            margin: 10px 200px 10px 200px;
+            text-align: left;
+            clear:both;
+        }
+        .accomplishment-box{
+            text-align:center;
+        }
+        .row{
+            display:flex;
+            justify-content:center;
+            flex-wrap: wrap;
+            padding:auto;
+        }
+        .column{
+            padding:0px 5px;
+            text-align:center;
+        }
+        
+        .galleryimages{
+            max-width:30%;
+            
+        }
+        body{
+            overflow-x:hidden;
+            margin:auto;
+        }
+        #moreinfo{
+            text-align:center;
+            padding:10px 10px;
+            font-weight:bold;
+        }
+        footer{
+            text-align:center;
+            background-color:rgb(241, 170, 111);
+            opacity:90%;
+            padding:40px 20px;
+        }
+        @media (min-width:100px) and (max-width:800px)  { 
+            /* smartphones */ 
+            .regular-text{
+                font-size:20px;
+                margin:30px;
+            }
+            #title{
+                font-size:70px;
+                margin:20px 0px;
+            }
+            .recognitionquote{
+                margin-top:0;
+            }
+            .portrait-with-lamb{
+                margin-top:0;
+                width:60%;
+            }
+        }
+        @media (min-width:801px) and (max-width:1024)  { 
+            .regular-text{
+                font-size:18px;
+            }
+        }
+        @media (min-width:1025px) {
+        .regular-text{
+            font-size:20px;
+        }
+        }
+    
