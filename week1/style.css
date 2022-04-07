@@ -159,7 +159,7 @@ h3 {
 
 .mybackgroundexperience {
     background-color: rgba(17, 16, 16, 0.377);
-    background-image: url(PersonalCVimg/computer.jpg);
+    background-image: url("./PersonalCVimg/computer.jpg");
     background-blend-mode: multiply;
     background-size: cover;
     color: rgba(219, 212, 212, 0.842);
