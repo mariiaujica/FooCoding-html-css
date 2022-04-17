@@ -308,7 +308,7 @@ h3 {
     line-height: 1.5;
 }
 
-.studysupportlink {
+.studysupport a {
     text-decoration: none;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -316,7 +316,7 @@ h3 {
     border-radius: 20px;
 }
 
-.studysupportlink:hover {
+.studysupport a:hover {
     border: 4px rgba(212, 160, 14, 0.534);
     box-shadow: 0 0 15px 4px rgba(211, 180, 40, 0.473);
 }
